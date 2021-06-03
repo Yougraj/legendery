@@ -1,0 +1,191 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+        margin: 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+        position: fixed;    
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
+
+
+body{
+    background: url(background.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.card{
+    height: 400px;
+    width: 320px;
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 8px;
+    box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    font-family: 'Poppins',sans-serif;
+}
+.card-img{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    margin: 30px auto 20px auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.card-img img{
+    height: 86%;
+    border-radius: 50%;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.desc{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+}
+.primary-text{
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin: 5px 0;
+}
+.secondary-text{
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+.details{
+    display: grid;
+    width: 100%;
+    height: 70px;
+    grid-template-columns: auto auto;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    border-radius: 0 0 8px 8px;
+    padding: 5px 0;
+}
+.details>div{
+    text-align: center;
+}
+.details>div:first-child{
+    border-right: 2px solid rgba(255,255,255,0.08);
+}
+button{
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 240px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+
+/* .footer-container {
+    padding: 20px;
+    border-radius: 20px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: orangered;
+} */
